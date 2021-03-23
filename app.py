@@ -20,7 +20,7 @@ def check(output):
     url = "https://zyanyatech1-license-plate-recognition-v1.p.rapidapi.com/recognize_url"
     querystring = {"image_url":output,"sourceType":"url"}
     headers = {
-    'x-rapidapi-key': "875a8db992msh87f6ebf58b495dap137ae5jsn57aca2322c33",
+    'x-rapidapi-key': "########", #enter uniquie API key
     'x-rapidapi-host': "zyanyatech1-license-plate-recognition-v1.p.rapidapi.com"
     }
     response = requests.request("POST", url, headers=headers, params=querystring)
